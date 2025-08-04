@@ -1,3 +1,2 @@
 echo "trigger" >> README.md
-
-Trigger build manually>>
+echo "# Trigger build" >> README.md
