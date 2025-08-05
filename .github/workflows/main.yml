@@ -20,12 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd node-js-docker-cicd
+          cd node-js-docker-cicd/app
           npm install
 
       - name: Run tests
         run: |
-          cd node-js-docker-cicd
+          cd node-js-docker-cicd/app
           npm test
 
       - name: Log in to DockerHub
