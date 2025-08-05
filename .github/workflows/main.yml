@@ -38,4 +38,4 @@ jobs:
         run: docker build -t venkatesh86/node-js-docker-cicd ./node-js-docker-cicd
 
       - name: Push Docker image
-        run: docker push venkatesh86/node-js-docker-cicd/node-js-docker-cicd
+        run: docker push venkatesh86/node-js-docker-cicd
