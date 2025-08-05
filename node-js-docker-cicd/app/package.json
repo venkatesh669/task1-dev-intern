@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-docker-cicd",
+  "name": "node-js-docker-cicd",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
